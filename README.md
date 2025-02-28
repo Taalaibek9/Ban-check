@@ -4,8 +4,9 @@ from functools import wraps
 
 app = Flask(__name__)
 
+# API Key Storage (Modify as needed)
 API_KEYS = {
-    "Scromnyi": "active"
+    "Scromnyimodz444": "active"
 }
 
 def require_api_key(f):
